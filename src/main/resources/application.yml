@@ -1,1 +1,6 @@
+app:
+  data:
+    init:
+      enabled: ${DATA_INIT_ENABLED:true}
 
+    student-count: ${DATA_ST_COUNT:10}

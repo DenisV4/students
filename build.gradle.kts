@@ -25,7 +25,6 @@ repositories {
 extra["springShellVersion"] = "3.2.0-RC1"
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-validation")
     implementation("org.springframework.shell:spring-shell-starter")
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
